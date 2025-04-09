@@ -1,4 +1,4 @@
-# googletest-action
+# Cross-Platform C++ Unit Testing Framework - googletest-action
 GitHub Action for googletest
 
 Runs GoogleTest C++ tests
@@ -22,5 +22,5 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Test project with googletest.
-      uses: arvsrao/googletest-action@master
+      uses: JAAFIRST559/googletest-action@master
 ```
